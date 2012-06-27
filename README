@@ -1,0 +1,9 @@
+Narna Clans Stats!
+	The installation for this Simple Clans extension is very simple. You simply add all the files into either the root, or a directory within your Website. I recommend a directory. You can do it without a directory however, the index.php is not mandatory, you can very easily just delete it and use the "SimpleClansStats.php" file as your Clans home page.
+
+	After putting all the files into your selected folder, you need to modify connector.php to contain your MySQL login details (and possibly your DynMap details). I have left some default values in that I assume you might be using. 
+
+	For this web interface to work, you will need to be running SimpleClans in MySQL Mode. To find out how to do this, consult the SimpleClans bukkitdev page: http://dev.bukkit.org/server-mods/simpleclans/
+
+Thanks, 
+	- Drumm of Narna!
