@@ -1,0 +1,82 @@
+<style type="text/css">
+
+body {
+  width:900px;
+  text-align:center;
+  font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #D60000;
+}
+
+img {
+border:none;
+}
+
+#scs_main_container {
+  width:900px;
+  text-align:center;
+
+}
+
+#scs_header {
+  width:900px;
+  text-align:center;
+
+}
+
+#scs_navi {
+  width:900px;
+  text-align:center;
+}
+
+#scs_navi_buttons {
+  width:900px;
+  text-align:center;
+  margin-left:85px;
+}
+
+
+#scs_content {
+  width:910px;
+  font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #292929;
+}
+
+#scs_footer {
+  width:900px;
+  text-align:center;
+}
+
+
+#clear {
+  clear:both;
+}
+
+
+.clanmember:hover {
+ background-color: #D6D6D6;
+}
+.clanmember_details {
+    background-color: #D6D6D6;
+}
+
+/* Navi */
+a.menu { 
+  display:block; 
+  margin-bottom:5px;
+  margin-left:50px; 
+  text-align:center; 
+  width:16ex;
+  float:left; 
+  border-style:ridge; 
+  border-width:3px; 
+  padding:2px; 
+  text-decoration:none; }
+
+a.menu:link    { color:#000000; background-color:#C5C5C5; }
+a.menu:visited { color:#000000; background-color:#b3c845; }
+a.menu:hover   { color:#000000; background-color:#C5C5C5; }
+a.menu:active  { color:#000000; background-color:#C5C5C5; }
+
+</style>
