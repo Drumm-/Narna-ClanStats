@@ -77,7 +77,7 @@ $name = htmlspecialchars($_GET['q']);
         <td>
             <table width='220px' align='center'>
                 <tr>
-                   <td align='center'><b><?php=substr($name, 0, 20)?></b><br/></td>
+                   <td align='center'><b><?phpsubstr($name, 0, 20)?></b><br/></td>
                 </tr>
                 <tr>
                     <td align='center'><?php if ( $dynmap !== "####" ) {echo"<img src='http://$dynmap/tiles/faces/body/$name.png' height='100px' /></td>";} else {echo"<img src='MinecraftSkinPreview.php?pseudo=$name' height='100px' /></td>";} ?>
