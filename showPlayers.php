@@ -30,7 +30,7 @@ echo "<tr class='clanmember' style='cursor:pointer;' onclick='get_member_details
 <td align='left' width='20px'>";
 echo $i++;
 echo "<td align='center' width='20px'>";
-if( $dynmap !== "####" ) {echo"<img src='http://$dynmap/tiles/faces/16x16/".$member['name'].".png' /></td>";} else {echo"<img height='16' width='16' src='MinecraftFacePreview.php?pseudo=".$member['name']."' /></td>";} 
+if( $dynmap !== "####" ) {echo"<img src='http://$dynmap/tiles/faces/16x16/".$member['name'].".png' /></td>";} else {echo"<img height='16' width='16' src='https://minotar.net/avatar/".$member['name']."/16' /></td>";} 
 echo "<td align='left' width='130px'>".substr($member['name'], 0, 12)."</td>
 <td align='left' width='50px'>".$member['tag']."</td> 
 <td align='left' width='50px'>";

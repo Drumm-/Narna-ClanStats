@@ -94,7 +94,7 @@
 		
 			echo "<tr class='clanmember' style='cursor:pointer;' onclick='get_member_details(\"".$member['name']."\")'>
       <td align='left' width='30px'>";
-      if( $dynmap !== "####" ) {echo"<img src='http://$dynmap/tiles/faces/16x16/".$member['name'].".png' /></td>";} else {echo"<img width='16px' height='16px' src='MinecraftFacePreview.php?pseudo=" . $member['name'] . " ' /></td>";}
+      if( $dynmap !== "####" ) {echo"<img src='http://$dynmap/tiles/faces/16x16/".$member['name'].".png' /></td>";} else {echo"<img width='16px' height='16px' src='https://minotar.net/avatar/" . $member['name'] . "/16' /></td>";}
       echo "<td align='left' width='130px'>".substr($member['name'], 0, 12)."</td>
       <td align='left' width='130px'>";
       if ($rang =='1'){ echo "Leader";} else {echo "Member"; }
