@@ -13,7 +13,7 @@
   </tr>
   <tr>
   <td align="left"><b>Leader: </b></td>
-  <td align="left">Leder or Member</td>
+  <td align="left">Leader or Member</td>
   </tr>
 	<tr>
   <td align="left"><b>ZivileKills: </b></td>
